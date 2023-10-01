@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Exito</title>
 </head>
 <body>
-<h1>¡¡¡Ha ido todo bien!!</h1>
-<a href="${pageContext.request.contextPath}/index.jsp">atras</a>
+<h1>Exito</h1>
+<a href="../index.jsp">volver</a>
 </body>
 </html>

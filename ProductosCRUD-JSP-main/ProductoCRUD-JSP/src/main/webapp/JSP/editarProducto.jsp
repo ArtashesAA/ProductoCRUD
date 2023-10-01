@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,14 +8,8 @@
 <body>
     <h2>Editar Producto</h2>
     
-    <!-- 
-    El valor de action ahora está directamente relacionado con el Servlet ModificarProducto.
-    Además, estoy asumiendo que tienes algunos atributos disponibles, como producto y fechaNacimiento,
-    que podrías haber establecido en un Servlet o Controlador antes de enviar a este JSP.
-    -->
-    <form action="${pageContext.request.contextPath}/ModificarProducto" method="post">
+    <form action="/ProductoCRUD-JSP/ModificarProducto" method="post">
         
-        <!-- Campo oculto para almacenar el id de la producto en modo editar. -->
         <c:if test="${not empty producto}">
             <input type="hidden" name="id" value="${producto.id}" />
         </c:if>

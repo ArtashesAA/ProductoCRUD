@@ -51,12 +51,12 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>ActualizarProducto</display-name>
-    <servlet-name>ActualizarProducto</servlet-name>
-    <servlet-class>com.controlador.ActualizarProducto</servlet-class>
+    <display-name>ModificarProducto</display-name>
+    <servlet-name>ModificarProducto</servlet-name>
+    <servlet-class>com.controlador.ModificarProducto</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>ActualizarProducto</servlet-name>
-    <url-pattern>/ActualizarProducto</url-pattern>
+    <servlet-name>ModificarProducto</servlet-name>
+    <url-pattern>/ModificarProducto</url-pattern>
   </servlet-mapping>
 </web-app>
